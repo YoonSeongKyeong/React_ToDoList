@@ -89,7 +89,6 @@ class App extends Component {
       <React.Fragment>
         <Nav// 카테고리 목록을 표시한다.
           categoryList={this.state.categoryList}
-          maxNumOfCategoryPerPage={8}
           handleCategorySelect={this.handleCategorySelect}
           handleCategoryDelete={this.handleCategoryDelete}
           handleCategoryAdd={this.handleCategoryAdd}
